@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ub-end {
+  display: flex;
+  justify-content: end;
+}
+.page-wrapper {
+  width: 100%;
+
+  background-color: black;
+}
+
+@media screen and (min-width: 320px) {
+  .ub-img-pg-1 {
+    position: relative;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .ub-pg-1 {
+    width: 100%;
+    height: 730px;
+    background-color: black;
+  }
+  .ub-pg1-c1 {
+    margin-top: 30px;
+  }
+  .container-position {
+    flex-direction: column-reverse;
+  }
+}
+/*PAGE-3*/
+.ub-pg-3 {
+  background-image: url(IMG/pexels-scott-webb-1029615.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.ub-btn-black-2 {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+  width: 200px;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+/*page 4*/
+.ub-pg-4 {
+  background-color: whitesmoke;
+}
+.ub-pg4-img1 {
+  width: 100%;
+  height: 400px;
+}
+.ub-pg4-img2 {
+  width: 100%;
+  height: 400px;
+}
+.ub-pg4-space {
+  margin-top: 50px;
+}
+@media screen and (min-width: 498px) {
+  .ub-pg-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+  }
+  .ub-pg1-c2 {
+    margin-top: 30px;
+  }
+  .page-wrapper-2 {
+    width: 100%;
+  }
+  .ub-pg-1 {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+  }
+}
+@media screen and (min-width: 768px) {
+  .ub-img-pg-1 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .ub-pg-1 {
+    width: 100%;
+    height: 870px;
+    background-color: black;
+  }
+  .ub-pg1-c1 {
+    margin-top: 30px;
+  }
+  .ub-pg-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-wrapper-2 {
+    background-image: url(IMG/portrait-of-young-man-using-face-mask-while-driving-his-car-on-his-way-to-work-transport-concept-new-normal-lifestyle-concept.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+  }
+  .ub-img-pg-1 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+  }
+  .ub-pg-1 {
+    width: 100%;
+    height: 950px;
+    background-color: black;
+  }
+  .ub-pg1-c1 {
+    margin-top: 30px;
+  }
+  .ub-pg2-cont {
+    position: relative;
+    left: 100px;
+    top: 70px;
+  }
+  /*CONTAINER PG 2*/
+  .position-cont2 {
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-position {
+    flex-direction: row;
+  }
+  .ub-img-pg-1 {
+    position: relative;
+    top: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+  }
+  .ub-pg1-c1 {
+    position: relative;
+    top: 80px;
+  }
+  .ub-pg-1 {
+    width: 100%;
+    height: 550px;
+    background-color: black;
+  }
+  .svg1-footer {
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+  }
+  .svg2-footer {
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+  }
+  .ub-footer-a2 {
+    position: relative;
+    left: 130px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .ub-nav-1 li:first-child {
+    margin-left: 180px;
+  }
+  .ub-pg4-img2 {
+    width: 95%;
+  }
+  .ub-img-pg-1 {
+    position: relative;
+    top: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+  }
+  .ub-pg1-c1 {
+    position: relative;
+    top: 70px;
+  }
+}
+/*PAGE-1*/
+
+/*CLASSES REUTILIZAVEIS
+MARGINS E PADDINGS*/
+
+.ub-mar-top-15 {
+  margin-top: 15px;
+}
+.ub-mar-top-30 {
+  margin-top: 30px;
+}
+.ub-mar-top-50 {
+  margin-top: 30px;
+}
+.ub-mar-top-65 {
+  margin-top: 65px;
+}
+.ub-mar-top-80 {
+  margin-top: 80px;
+}
+.ub-mar-top-100 {
+  margin-top: 100px;
+}
+.ub-mar-bottom-50 {
+  margin-bottom: 50px;
+}
+.ub-mar-bottom-20 {
+  margin-bottom: 20px;
+}
+/*BOTÕES*/
+.ub-btn-black {
+  background-color: black;
+  color: #eeeeee;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+  height: 50px;
+}
+.ub-big-title {
+  font-size: 52px;
+  color: white;
+}
+.ub-big-title-black {
+  font-size: 52px;
+  color: black;
+}
+.ub-btn-white {
+  background-color: #eeeeee;
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+}
+.ub-btn-white-header {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 23px;
+  font-weight: 600;
+}
+
+.ub-btn-header {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 23px;
+  font-weight: 600;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.ub-btn-header:hover {
+  background-color: #3b3a3a;
+  border-radius: 20px;
+}
+
+/*TEXTOS*/
+.ub-p {
+  color: white;
+  font-weight: 450;
+}
+.ub-p-black {
+  color: black;
+  font-weight: 450;
+}
+.ub-small-title {
+  font-size: 20px;
+}
+ion-icon {
+  font-size: 34px;
+}
+.ub-arrow {
+  position: relative;
+  top: 20px;
+}
+/*FOOTER*/
+.footer-wrapper {
+  background-color: black;
+}
+.ub-link-footer {
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+}
+.ub-link-footer:hover {
+  color: #aca7a7;
+}
+.ub-white {
+  color: white;
+}
+.link-a-footer {
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.link-a-footer:hover {
+  color: #aca7a7;
+}
+.svg1-footer {
+  width: 150px;
+  margin-right: 5px;
+}
+.svg2-footer {
+  width: 140px;
+}
+.ub-footer-a2 {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-right: 15px;
+}
+/*PAGE -2*/
+
+.ub-pg2-ico {
+  margin-right: 50px;
+}
+.ub-position-cont2 {
+  position: relative;
+  left: 50px;
+}
